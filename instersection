@@ -1,0 +1,12 @@
+# find elements that are present in both the lists
+def intersection(list1, list2): 
+    list_intersection = [value for value in list1 if value in list2] 
+    return list_intersection
+
+# find elements that are present in list1 , but not in list2
+def not_list(list1, list2)
+    not_list = [value for value in list1 if value not in list2] 
+    return not_list
+    
+    
+    
