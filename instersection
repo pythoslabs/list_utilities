@@ -4,6 +4,7 @@ def intersection(list1, list2):
     return list_intersection
 
 # find elements that are present in list1 , but not in list2
+# To find the other way around, swap the arguments
 def not_list(list1, list2)
     not_list = [value for value in list1 if value not in list2] 
     return not_list
