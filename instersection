@@ -9,5 +9,5 @@ def not_list(list1, list2)
     not_list = [value for value in list1 if value not in list2] 
     return not_list
     
-    
-    
+# Remove null value from a list
+no_nulls = [x for x in unique_preds if type(x) == str]
